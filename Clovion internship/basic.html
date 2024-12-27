@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Data</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" id="name" name="name" placeholder="Enter your name"></td>
+            </tr>
+            <tr>
+                <td><label for="father_name">Father's Name</label></td>
+                <td><input type="text" id="father_name" name="father_name" placeholder="Enter your Father's name"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="text" id="email" name="email" placeholder="Enter your Email"></td>
+            </tr>
+            <tr>
+                <td><label for="contact_number">Contact Number</label></td>
+                <td><input type="text" id="contact_number" name="contact_number" placeholder="Enter your Contact number"></td>
+            </tr>
+            <tr>
+                <td><label for="birthday">Birthday:</label></td>
+                <td><input type="date" id="birthday" name="birthday"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td><textarea id="address" name="address" placeholder="Enter your address"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="photo">Photo</label></td>
+                <td><input type="file" id="photo" name="photo"></td>
+            </tr>
+            <tr>
+                <td><p>Choose your gender:</p></td>
+                <td>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="department">Choose a Department:</label></td>
+                <td>
+                    <select name="department" id="department">
+                        <option value="CSE">CSE</option>
+                        <option value="ECE">ECE</option>
+                        <option value="EEE">EEE</option>
+                        <option value="CIVIL">CIVIL</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><p>Choose degree:</p></td>
+                <td>
+                    <input type="checkbox" id="be" name="degree" value="be" class="">
+                    <label for="be">BE</label>
+                    <input type="checkbox" id="me" name="degree" value="me">
+                    <label for="me">ME</label>
+                </td>
+            </tr>
+            <tr>
+                <td><p>Play Video:</p></td>
+                <td>
+                    <video width="320" height="240" controls>
+                        <source src="movie.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
